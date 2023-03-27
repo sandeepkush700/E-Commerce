@@ -1,0 +1,16 @@
+<!-- <p *ngFor="let item of list">sandeep works!</p> -->
+<!-- <div><span *ngIf="checked1">{{checkOne}}:</span>"1":<input type="checkbox" name=""  (click)="check1($event,0)"><span *ngIf="checked1" (click)="delete(0)">delete</span></div><br>
+<div><span  *ngIf="checked2">{{checkTwo}}:</span>"2":<input type="checkbox" name="" (click)="check1($event,1)"><span *ngIf="checked2" (click)="delete(1)">delete</span></div><br>
+<div><span *ngIf="checked3">{{checkThree}}:</span>"3":<input type="checkbox" name=""  (click)="check1($event,2)"><span *ngIf="checked3" (click)="delete(2)">delete</span></div><br>
+<div><span *ngIf="checked4">{{checkFour}}:</span>"4":<input type="checkbox" name=""  (click)="check1($event,3)"><span *ngIf="checked4" (click)="delete(3)">delete</span></div><br> -->
+
+
+<ul *ngFor="let item of list; let i =index" >
+    
+    <li>
+        <input type="checkbox" (click)="check1(i)">
+        <span *ngIf="itemData.includes(i)">{{item}}</span>
+        <button *ngIf="itemData.includes(i)" (click)="check1(i)">Delete</button>
+        <!-- <span *ngIf="item.includes(i)">delete</span><br> -->
+    </li>  
+</ul>

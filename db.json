@@ -1,0 +1,36 @@
+{
+  "seller": [
+    {
+      "name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "sandeep@123",
+      "id": 1
+    },
+    {
+      "name": "sonali",
+      "email": "sonali@gmail.com",
+      "password": "sonali@123",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "HeadPhone",
+      "price": "1500",
+      "color": "brown",
+      "category": "mobile assosiries",
+      "description": "sfggrwwtr",
+      "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "id": 4
+    },
+    {
+      "name": "HeadPhone",
+      "price": "1500",
+      "color": "brown",
+      "category": "mobile assosiries",
+      "description": "sfggrwwtr",
+      "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "id": 5
+    }
+  ]
+}
